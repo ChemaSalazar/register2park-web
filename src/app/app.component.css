@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Centers the child divs horizontally */
+  flex-direction: column; /* Aligns the child divs in a column */
+  align-items: center; /* Centers the child divs along the cross axis */
+  background-color: mistyrose;
+}
+
