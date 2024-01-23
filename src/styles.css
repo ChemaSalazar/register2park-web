@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin:0px;
+}
+
+body{
+  /*height: 100%; !* Ensures that the body takes full height of the viewport *!*/
+}
+
+.content {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 100vh;
+  text-align: left; /* Aligns text to the left inside each content div */
+  width: 100%; /* Adjust the width as needed */
+}

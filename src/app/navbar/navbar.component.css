@@ -1,4 +1,7 @@
+
 nav {
+  position: relative;
+  display: flex;
   background-color: #333;
   color: white;
   padding: 1rem;
@@ -8,3 +11,22 @@ nav a {
   color: white;
   margin-right: 1rem;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* This aligns items vertically in the center */
+  background-color: #333;
+  color: white;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center; /* Aligns links/buttons in the center vertically */
+}
+
+/* Additional styling for aesthetics */
+.nav-left a, .nav-right button {
+  margin-right: 10px; /* Adds spacing between links/buttons */
+}
+
