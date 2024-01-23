@@ -1,0 +1,10 @@
+<router-outlet>
+  <nav>
+<!--    <a routerLink="/">Home</a>-->
+    <a *ngIf="authService.isLoggedIn" routerLink="/profile">Profile</a>
+    <a *ngIf="!authService.isLoggedIn" routerLink="/login">Login</a>
+    <button *ngIf="authService.isLoggedIn" (click)="logout()">Logout</button>
+  </nav>
+
+</router-outlet>
+
